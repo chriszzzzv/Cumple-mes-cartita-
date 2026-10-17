@@ -1,5 +1,5 @@
 // PERSONALIZACIÓN: cambia esta fecha si el inicio de su relación fue diferente.
-const relationshipStart = new Date(2026, 2, 17, 0, 0, 0); // 17 de marzo de 2026
+const relationshipStart = new Date(2025, 4, 17, 0, 0, 0); // 17 de marzo de 2026
 
 // Cuando quieras colocar tu dedicatoria, cambia los párrafos dentro de
 // <div id="letterBody"> en index.html. No necesitas editar este archivo.
