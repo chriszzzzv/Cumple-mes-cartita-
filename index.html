@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#8f164e" />
+  <meta name="description" content="Siete meses llenos de amor. Una sorpresa especial de cumplemes." />
+  <title>Feliz cumplemes · 7 meses llenos de amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="sky" aria-hidden="true"><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div id="floatingHearts" class="floating-hearts"></div></div>
+  <main>
+    <div class="eyebrow">PARA MI MAPACHITA <span>✦</span> CON AMOR</div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="decor decor-left">✿</div><div class="decor decor-right">✧</div>
+      <p class="hero-pretitle">Hoy celebramos nuestra historia</p>
+      <h1 id="hero-title">Feliz cumplemes</h1>
+      <p class="hero-subtitle">Siete meses llenos de amor</p>
+      <div class="divider-heart"><span></span><b>♥</b><span></span></div>
+      <p class="date">17 DE OCTUBRE DE 2026</p>
+      <div class="envelope-scene">
+        <button id="envelopeButton" class="envelope-button" type="button" aria-label="Abrir la carta de amor" aria-haspopup="dialog" aria-controls="letterDialog">
+          <span class="envelope-shadow"></span>
+          <span class="envelope" aria-hidden="true"><span class="envelope-back"></span><span class="envelope-paper">Para ti ♡</span><span class="envelope-flap"></span><span class="envelope-front"></span><span class="envelope-seal">♥</span></span>
+        </button>
+      </div>
+      <p class="tap-hint"><span>✧</span> Toca el sobre para abrir tu sorpresa <span>✧</span></p>
+      <p class="hero-footer">Un pedacito de mi corazón, para ti.</p>
+    </section>
+
+    <section class="countdown section" aria-labelledby="counter-title">
+      <p class="section-label">NUESTRA HISTORIA</p>
+      <h2 id="counter-title">Cada segundo contigo cuenta</h2>
+      <p class="section-description">Desde aquel 17 de marzo, seguimos escribiendo lo nuestro.</p>
+      <div class="time-grid" id="timeGrid" aria-label="Tiempo juntos">
+        <div><strong id="months">7</strong><span>meses</span></div>
+        <div><strong id="days">0</strong><span>días</span></div>
+        <div><strong id="hours">0</strong><span>horas</span></div>
+        <div><strong id="minutes">0</strong><span>minutos</span></div>
+      </div>
+      <p class="tiny-note">El contador comienza el 17 de marzo de 2026; puedes cambiar la fecha en script.js.</p>
+    </section>
+
+    <section class="memories section" aria-labelledby="memories-title">
+      <p class="section-label">NUESTROS RECUERDOS</p>
+      <h2 id="memories-title">Nuestras aventuras juntos</h2>
+      <p class="section-description">Seis momentos que guardo en el corazón, y miles que aún nos esperan. ❤️🦝</p>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="fotos/01-nieve.jpg" alt="Juntitos incluso en los días más fríos" loading="lazy" decoding="async"/><figcaption><strong>Juntitos incluso en los días más fríos</strong><span>En cada abrazo encuentro mi lugar favorito.</span></figcaption></figure>
+        <figure class="photo-card"><img src="fotos/02-montanas.jpg" alt="Un mundo entero por recorrer" loading="lazy" decoding="async"/><figcaption><strong>Un mundo entero por recorrer</strong><span>Contigo cada paisaje se vuelve un recuerdo.</span></figcaption></figure>
+        <figure class="photo-card"><img src="fotos/03-cascada.jpg" alt="Nuestra aventura entre cascadas" loading="lazy" decoding="async"/><figcaption><strong>Nuestra aventura entre cascadas</strong><span>La felicidad también vive en los pequeños momentos.</span></figcaption></figure>
+        <figure class="photo-card"><img src="fotos/04-mirador.jpg" alt="Un beso y mil recuerdos" loading="lazy" decoding="async"/><figcaption><strong>Un beso y mil recuerdos</strong><span>Ojalá nos esperen muchos viajes más.</span></figcaption></figure>
+        <figure class="photo-card"><img src="fotos/05-aventura.jpg" alt="De la mano a nuevas aventuras" loading="lazy" decoding="async"/><figcaption><strong>De la mano a nuevas aventuras</strong><span>Cada aventura contigo tiene algo especial.</span></figcaption></figure>
+        <figure class="photo-card"><img src="fotos/06-playa.jpg" alt="Nuestros besitos de la nada" loading="lazy" decoding="async"/><figcaption><strong>Nuestros besitos de la nada</strong><span>Mi lugar favorito siempre será cerquita de ti.</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="music-section section" aria-labelledby="music-title">
+      <p class="section-label">NUESTRA BANDA SONORA</p>
+      <h2 id="music-title">Una canción para nosotros ♡</h2>
+      <p class="section-description">Tuyo — Mora. Toca el botón para mostrar el reproductor y escucharla.</p>
+      <button id="musicToggle" class="music-toggle" type="button" aria-expanded="false" aria-controls="spotifyPanel">♫ Escuchar nuestra canción</button>
+      <div id="spotifyPanel" class="spotify-panel" hidden>
+        <iframe title="Escuchar Tuyo de Mora en Spotify" data-src="https://open.spotify.com/embed/track/4tQofG51E0juZBBVr6pral?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <p class="song-note">Puedes pulsar reproducir en Spotify. Algunas cuentas o navegadores solo permiten escuchar una vista previa.</p>
+      </div>
+      <a class="official-link" href="https://www.youtube.com/watch?v=guXD3jFW9jQ" target="_blank" rel="noopener noreferrer">Ver el video oficial en YouTube ↗</a>
+    </section>
+
+    <section class="closing section" aria-label="Dedicatoria final"><span class="closing-heart">♥</span><p>Y si pudiera elegir mil veces…</p><h2>mil veces te elegiría a ti.</h2><span class="signature">Con todo mi amor ♡</span></section>
+  </main>
+
+  <div id="letterDialog" class="dialog-backdrop" role="dialog" aria-modal="true" aria-labelledby="letterTitle" aria-hidden="true">
+    <div class="letter-dialog" role="document">
+      <button class="close-button" id="closeDialog" type="button" aria-label="Cerrar carta">×</button>
+      <div class="letter-decoration">♥</div>
+      <p class="letter-overline">UNA CARTA PARA TI</p>
+      <h2 id="letterTitle">Mi mapachita…</h2>
+      <div class="letter-body" id="letterBody">
+        <p>Felices siete meses, mi amor. ❤️🦝</p>
+        <p>Para empezar, feliz cumple mes, mi amor. Ya son siete meses que llevamos juntitos. ¿Cómo explicar que nuestras ojeritas son de tanto desvelarnos por querer estar juntitos? Y eso demuestra que somos el uno para el otro, dos mapachitos enamorados. 🦝❤️</p>
+        <p>Soy muy feliz cuando nos abrazamos y nos acurrucamos como los mapachitos. Cuando te tengo cerquita de mí, puedo mirar esos ojitos tuyos que tanto me encantan, y cada vez que los miro encuentro otra razón para enamorarme de ti.</p>
+        <p>Me encanta cuando nos damos besitos de la nada y estamos juntitos sin necesidad de hacer nada especial. Contigo, hasta los momentos más pequeños se convierten en recuerdos muy bonitos.</p>
+        <p>Gracias x estos siete meses juntitos, gracias por amarme, cuidarme, regaloniarme y regalarme tu tiempo, que sé que lo tienes tan ocupado.</p>
+        <p>Ojalá la vida nos regale muchos viajes más, muchas aventuras, abrazos, besitos y momentos bonitos para seguir construyendo nuestra historia de amor.</p>
+        <p>Te amo muchísimo, mi mapachita hermosa. ❤️🦝</p>
+      </div>
+      <p class="letter-signoff">Con amor, siempre ♥</p>
+    </div>
+  </div>
+</body>
+</html>
